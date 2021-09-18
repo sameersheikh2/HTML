@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.list a{
+    text-decoration: none;
+    padding: 1px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    animation-fill-mode: forwards;
+}
+
+.list{
+    padding: 20px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote{
+    text-align: center;
+    max-width: auto;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
