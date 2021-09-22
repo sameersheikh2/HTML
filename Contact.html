@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="top">Welcome to our store</h1>
+    <div class="sony-header">
+      <h1 id="top" >Contact Us</h1>
+    </div>
     <br />
-    <ul>
+    <img src="./Images/ContactGiphy.gif" alt="gif" style="width: 100%; height: 100%; position: absolute; z-index: -1;height: auto ;">
+    <ul class="list">
       <li><a href="Index.html">Home</a></li>
       <li><a href="./Shop.html">Shop More</a></li>
       <li><a href="./About.html">About</a></li>
     </ul>
     <br />
     <br />
-    <img src="./Images/Support.jpeg.jpeg" width="1340" alt="" />
-    <br />
-    <br />
-    <br />
+
+    <div class="container">
+      <form action="">
     <h3>Full Name</h3>
     <input type="text" placeholder="Enter Full Name" />
     <h3>Email</h3>
@@ -40,9 +43,12 @@
         background-color: olive;
         border-width: 1px;
         width: 100px;
+        cursor: pointer;
       "
     >
       Submit
     </button>
+  </form>
+  </div>
   </body>
 </html>

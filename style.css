@@ -4,25 +4,53 @@
     box-sizing: border-box;
 }
 
+.sony-header{
 
-.list a{
-    text-decoration: none;
-    padding: 1px;
-    font-size: 25px;
-    cursor: pointer;
-    color: black;
-    animation-fill-mode: forwards;
+    background-color: black;
+    letter-spacing: 2px; 
+    font-family: 'Times New Roman', Times, serif; 
+    padding-left: 10px; 
+    font-size: 21px;
+}
+
+.sony-header h1{
+    color:white; 
+    padding: 15px 0px 15px 0px ;
+    font-stretch: wider;
+}
+
+.header{
+    background-color: black; 
+    color: white;
+    padding: 20px;
 }
 
 .list{
-    padding: 20px;
+    padding: 100px 20px;
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.list a{
+    text-decoration: none;
+    padding: 1px;
+    font-size: 35px;
+    cursor: pointer;
+    color: whitesmoke;
+    animation-fill-mode: forwards;
+}
+
 
 .quote{
     text-align: center;
     max-width: auto;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 40%;
+    background-color: whitesmoke ;
+    padding: 45px;
+    margin: auto;
+    border-radius: 1%;
 }
