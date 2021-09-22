@@ -10,12 +10,12 @@
     letter-spacing: 2px; 
     font-family: 'Times New Roman', Times, serif; 
     padding-left: 10px; 
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .sony-header h1{
     color:white; 
-    padding: 15px 0px 15px 0px ;
+    padding: 0px 0px 3px 0px ;
     font-stretch: wider;
 }
 
@@ -38,7 +38,12 @@
     color: whitesmoke;
     animation-fill-mode: forwards;
 }
-
+.list a:hover{
+    background-color:coral;
+    -webkit-transition: background-color 1000ms ease-in-out;
+    -ms-transition: background-color 1000ms ease-in-out;
+    transition: background-color 1000ms ease-in-out;
+}
 
 .quote{
     text-align: center;
