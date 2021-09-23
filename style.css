@@ -39,10 +39,10 @@
     animation-fill-mode: forwards;
 }
 .list a:hover{
-    background-color:coral;
-    -webkit-transition: background-color 1000ms ease-in-out;
-    -ms-transition: background-color 1000ms ease-in-out;
-    transition: background-color 1000ms ease-in-out;
+    background-color: rgb(41, 80, 255);
+    -webkit-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
 }
 
 .quote{
@@ -53,9 +53,56 @@
 }
 
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
-    background-color: whitesmoke ;
+    background: rgba(255, 255, 255, 0.6) ;
     padding: 45px;
     margin: auto;
-    border-radius: 1%;
+    margin-top: -7%;
+    border-radius: 7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.container h3{
+    color: rgb(218, 19, 19);
+    font-size: 20px;
+}
+
+.subbtn{
+    border-radius: 30px;
+    background-color: white;
+    font-size: large;
+    border-width: 2px;
+    border-color: skyblue;
+    cursor: pointer;
+    padding: 8px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+textarea{
+    margin: 5px;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 10px;;
+}
+
+.subbtn:hover{
+    background-color: steelblue;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
 }
