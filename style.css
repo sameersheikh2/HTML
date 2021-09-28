@@ -86,18 +86,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-input{
+input, textarea{
     margin: 5px;
-    padding: 5px;
+    padding: 8px;
     border-width: 0;
     border-radius: 10px;
-}
-
-textarea{
-    margin: 5px;
-    padding: 5px;
-    border-width: 0;
-    border-radius: 10px;;
 }
 
 .subbtn:hover{
@@ -105,4 +98,8 @@ textarea{
     -webkit-transition: background-color 500ms ease-in-out;
     -ms-transition: background-color 500ms ease-in-out;
     transition: background-color 500ms ease-in-out;
+}
+
+.aftersbmt{
+    background-color: aqua;
 }
