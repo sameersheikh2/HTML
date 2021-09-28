@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 if(isset($_POST['name'])){
+=======
+>>>>>>> 7d35e5b89998a39989d044addaa407e6f8892a8c
 $server = "localhost";
 $name = "root";
 $password = "";
@@ -8,11 +11,16 @@ $con = mysqli_connect($server, $name, $password);
 if(!$con){
     die("connection to this database is failed". mysqli_connect_error());
 }
+<<<<<<< HEAD
 // echo "Success";
+=======
+echo "Success";
+>>>>>>> 7d35e5b89998a39989d044addaa407e6f8892a8c
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+<<<<<<< HEAD
 $sql = "INSERT INTO `sonyinfo`.`sonyinfo`(`Name`, `Email`, `Message`, `Date`) VALUES ('$name', '$email', '$message', current_timestamp());"; 
 
 // echo $sql;
@@ -71,3 +79,8 @@ $con->close();
 </body>
 
 </html>
+=======
+$sql = "INSERT INTO 'sonyinfo' ('Name', 'Email' , 'message' , 'date') VALUES ('$name', '$email' , '$message', current_timestamp());"; 
+echo $sql
+?>
+>>>>>>> 7d35e5b89998a39989d044addaa407e6f8892a8c
